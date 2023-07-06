@@ -2,6 +2,7 @@ body
 {
     margin: 0px;
     padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .nav-container
 {
@@ -25,10 +26,11 @@ ul{
 {
     border: 1px solid black;
     padding: 50px;
-    background-image: url("images/background\ 1.jpg");
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url("images/background\ 4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,12 +41,30 @@ ul{
 {
 }
 .button
-{
+{   
     background-color: red;
     padding: 10px;
     border-radius: 10px;
-    border: 2px solid black;
     color: white;
     width: 150px;
     height: 50px;
+}
+.about-us-container
+{
+    display: flex;
+    justify-content: space-around;
+   height: 500px;
+}
+.bmg
+{
+    
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/background\ 2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px;
+    padding:0px;
 }
