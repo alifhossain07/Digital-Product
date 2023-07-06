@@ -103,5 +103,25 @@ ul{
     font-size: smaller;  
     box-shadow: 1px 1px 30px rgb(231, 181, 181);
 }
-
-
+.info-div-container
+{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 100px;
+    font-size: 15px;
+}
+.info-box
+{
+    color: white;
+}
+.info-box1
+{
+    margin-top: 25px;
+    color: white;
+}
+.footer1
+{
+    background-color: black;
+    height: 600px;
+}
