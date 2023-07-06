@@ -1,0 +1,22 @@
+body
+{
+   
+}
+.nav-container
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #424141;
+    padding: 20pxx;
+}
+ul{
+    display: flex;
+  flex-direction: row; 
+  gap: 80px;
+  font-size: 20px;
+  color: white;
+}
+.logo
+{
+    margin-top: 20px;
+}
